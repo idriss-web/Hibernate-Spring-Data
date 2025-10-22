@@ -25,10 +25,12 @@ private ProductRepository productRepository;
        productRepository.save(new Product(null,"Smart Phone",3200,32));
        List<Product> products = productRepository.findAll();
        products.forEach(
+
                p->
                {
                    System.out.println(p.toString());
                }
+
        );
 
         Product product = productRepository.findById(Long.valueOf(1)).get();
