@@ -1,4 +1,4 @@
-package ma.mundiapolis.projet_orm;
+package mundiapolis.orm_tp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

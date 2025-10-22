@@ -1,4 +1,4 @@
-package ma.mundiapolis.orm_tp.entities;
+package mundiapolis.orm_tp.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
