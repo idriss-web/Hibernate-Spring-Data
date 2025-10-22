@@ -39,6 +39,13 @@ private ProductRepository productRepository;
         System.out.println(product.getName());
         System.out.println(product.getQuantity());
         System.out.println("***************");
+List<Product> productList = productRepository.findByNameContains("C");
+productList.forEach(
+        p->
+        {
+            System.out.println(p);
+        }
+);
 
 
     }
