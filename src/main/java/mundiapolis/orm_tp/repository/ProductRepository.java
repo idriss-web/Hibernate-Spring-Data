@@ -8,6 +8,8 @@ import org.springframework.data.repository.query.Param;
 import java.util.List;
 
 public interface ProductRepository  extends JpaRepository<Product,Long> {
+                                            // ou bien CrudRepository
+                            // JPA repository hérite de listcrudrepostory ( qui hérite de crudrepository )
     List<Product> findByNameContains(String mc);
     List<Product> findByPriceGreaterThan(double price);
 
